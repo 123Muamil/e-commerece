@@ -45,7 +45,7 @@ const Navbar = ({Searchproducts}) => {
         <Link href='/about'>
           <li>About Us</li>
         </Link>
-        <Link href='/'>
+        <Link href='/project'>
           <li>Projects </li>
         </Link>
       </ul>
@@ -146,7 +146,7 @@ const Navbar = ({Searchproducts}) => {
               <Link href='/about'>
                 <li>About Us</li>
               </Link>
-              <Link href='/'>
+              <Link href='/project'>
                 <li>Projects </li>
               </Link>
             </ul>

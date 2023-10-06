@@ -4,7 +4,7 @@ import company from '../src/assets/company.jpg'
 import { GrFacebookOption, GrTwitter, GrLinkedinOption } from 'react-icons/gr'
 import logo2 from '../src/assets/download.png'
 
-
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -33,7 +33,10 @@ const Footer = () => {
         <div className='footer-links'>
           <h3>Company</h3>
           <ul>
-            <li>About</li>
+            <Link href='/about'>
+                <li>About</li>
+              </Link>
+
             <li>Terms of Use</li>
             <li>Privacy Policy</li>
             <li>How it Works</li>
